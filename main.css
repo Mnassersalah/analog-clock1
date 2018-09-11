@@ -1,0 +1,173 @@
+body
+{
+  font-family: Tahoma Arial;
+  background: #112;
+}
+
+.analog
+{
+	margin: 100px auto;
+	width: 200px;
+	height: 200px;
+	
+	background: #DDD;
+	border-radius: 50%;
+	border: 10px solid #001;
+	box-shadow: 0 0 25px 10px #000 inset;
+	
+	position: relative;
+}
+
+.analog .hours, .analog .minutes, .analog .seconds
+{
+	display: block;
+	background: #000C;
+	border-radius: 6px 100% 100% 6px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.analog .hours
+{
+	width: 60px;
+	height: 6px;
+	transform-origin: 3px 50%;
+}
+
+.analog .minutes
+{
+	width: 90px;
+	height: 6px;
+	transform-origin: 3px 50%;
+}
+
+.analog .seconds
+{
+	width: 100px;
+	height: 2px;
+	transform-origin: 15px 50%;
+	
+}
+
+.analog .bar
+{
+	display: block;
+	height: 10px;
+	width: 5px;
+	background: #000D;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform-origin: 50% 100px;
+	
+}
+
+.analog .secbar
+{
+	display: block;
+	height: 7px;
+	width: 2px;
+	background: #333D;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform-origin: 50% 100px;
+	
+}
+
+.bar:after
+{
+	display: block;
+	font-size: 1.35em;
+	margin: 7px 0 0 -7px;
+	transform-origin: 50% 50%;
+	
+	
+}
+
+
+.one:after
+{
+	content: "1";
+	transform: rotate(-30deg)
+}
+
+.two:after
+{
+	content: "2";
+	transform: rotate(-60deg)
+	
+}
+
+.three:after
+{
+	content: "3";
+	transform: rotate(-90deg)
+}
+
+
+.four:after
+{
+	content: "4";
+	transform: rotate(-120deg)
+}
+
+.five:after
+{
+	content: "5";
+	transform: rotate(-150deg)
+}
+
+.six:after
+{
+	content: "6";
+	transform: rotate(-180deg)
+}
+
+.seven:after
+{
+	content: "7";
+	transform: rotate(-210deg)
+}
+
+.eight:after
+{
+	content: "8";
+	transform: rotate(-240deg)
+}
+
+.nine:after
+{
+	content: "9";
+	transform: rotate(-270deg)
+}
+
+.ten:after
+{
+	content: "10";
+	transform: rotate(-300deg)
+}
+
+.eleven:after
+{
+	content: "11";
+	transform: rotate(-330deg)
+}
+
+.twelve:after
+{
+	content: "12";
+	transform: rotate(-360deg)
+}
+
+
+
+
+
+
+
+
